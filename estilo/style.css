@@ -7,8 +7,33 @@
 
 h1{
     text-align: center;
+    color: white;
+    padding: 10px 0px 15px 15px ;
 }
 
 body{
+    background-image: linear-gradient(to right, #2fa866, #b1dfc4);
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    height: auto;
+    width: 900px ;
+    padding: 25px;
+    margin: 30px;
+    border-radius: 15px;
+    background-color: #000000;
+    color: white;
+}
+
+footer p >  a {
     
+    text-align: center;
+    text-decoration: none;
+    color: black;   
 }

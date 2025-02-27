@@ -31,9 +31,13 @@ body{
     color: white;
 }
 
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    border: #2fa866;
+}
+
 footer p >  a {
-    
     text-align: center;
-    text-decoration: none;
     color: black;   
 }

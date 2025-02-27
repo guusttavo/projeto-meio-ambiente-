@@ -1,8 +1,9 @@
 
 
 *{
-    padding: 0%;
-    box-sizing: 0%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 h1{
@@ -12,7 +13,8 @@ h1{
 }
 
 body{
-    background-image: linear-gradient(to right, #2fa866, #b1dfc4);
+    background-image: url(/imagens/pexels-pixabay-325944.jpg);
+    background-position: cover;
 }
 
 .conteudo{
@@ -21,14 +23,19 @@ body{
     justify-content: center;
 }
 
+
 .texto{
     height: auto;
     width: 900px ;
     padding: 25px;
     margin: 30px;
     border-radius: 15px;
-    background-color: #000000;
+    background-color: #00000079;
     color: white;
+}
+
+p{
+    padding: 10px;
 }
 
 footer{
@@ -39,5 +46,5 @@ footer{
 
 footer p >  a {
     text-align: center;
-    color: black;   
+    color: white;   
 }

@@ -14,22 +14,24 @@
 h1{
     text-align: center;
     font-family: "Sedan SC", serif;
-    font-size:30px;
+    font-size:40px;
     color: white;
     padding: 10px 0px 15px 15px ;
 }
 
 h2{
+    font-family: "Sedan SC", serif;
     text-align: center;
     padding-top: 20px;
 }
 
 h3{
+    font-family: "Sedan SC", serif;
     text-align: center;
     padding-top: 20px;
 }
 
-body{
+html{
     background-image: url(/imagens/pexels-pixabay-325944.jpg);
     background-size: cover;
 }

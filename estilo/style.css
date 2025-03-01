@@ -35,6 +35,7 @@ html{
     background-image: url(../imagens/pexels-pixabay-325944.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 

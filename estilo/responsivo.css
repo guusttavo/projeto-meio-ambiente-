@@ -1,0 +1,53 @@
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 30px; 
+        padding: 10px;
+    }
+
+    h2, h3 {
+        font-size: 24px;
+        padding-top: 15px;
+    }
+
+    .texto {
+        width: 95%; 
+        padding: 20px;
+        margin: 15px;
+    }
+
+    p {
+        font-size: 16px; 
+        padding: 10px;
+    }
+
+    ul {
+        margin-left: 20px;
+    }
+
+    footer {
+        flex-direction: column; 
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px; 
+    }
+
+    .texto {
+        width: 100%;
+        padding: 15px;
+        margin: 10px;
+    }
+
+    p {
+        font-size: 14px; 
+    }
+
+    footer {
+        padding: 15px;
+    }
+}

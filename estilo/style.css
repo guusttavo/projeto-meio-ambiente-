@@ -32,17 +32,25 @@ h3{
 }
 
 html{
-    background-image: url(/imagens/pexels-pixabay-325944.jpg);
-    background-size: 100% 100% ;
+    background-image: url(../imagens/pexels-pixabay-325944.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .conteudo{
     display: flex;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
-
+.texto{
+    width: 90%;
+    max-width: 900px;
+}
 .texto{
     height: auto;
     width: 900px ;
@@ -56,21 +64,29 @@ html{
 p{
     padding:20px;
     font-family: "Libre Baskerville";
+    line-height: 1.6;
 }
 
 ul{
-    margin-left: 50px;
+    padding-left: 50px;
 }
 
 footer{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     background-color: #00000079;    
-    padding: 20px 0px 10px 0px ;
-    border-radius: 0px, 15px, 0px, 15px;
+    padding: 20px ;
+    border-radius: 0px 15px 0px 15px;
 }
 
-footer p >  a {
-    text-align: center;
-    color: white;   
+footer > p > a{
+    color:white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+footer p >  a:hover {
+    color: #d49216b4;
+    text-decoration: underline;  
 }

@@ -22,7 +22,7 @@
     }
 
     ul {
-        margin-left: 20px;
+        margin-left: 5px;
     }
 
     footer {
@@ -33,6 +33,11 @@
 
 
 @media (max-width: 480px) {
+
+    html{
+        background-image: url(../imagens/versao\ celular.jpg);
+    }
+
     h1 {
         font-size: 24px; 
     }
@@ -45,6 +50,10 @@
 
     p {
         font-size: 14px; 
+    }
+
+   ul > li{
+        margin-left: -25px;
     }
 
     footer {

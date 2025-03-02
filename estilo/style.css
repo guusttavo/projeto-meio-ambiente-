@@ -78,7 +78,7 @@ footer{
     align-items: center;
     background-color: #00000079;    
     padding: 20px ;
-    border-radius: 0px 15px 0px 15px;
+    border-radius: 15px;
 }
 
 footer > p > a{

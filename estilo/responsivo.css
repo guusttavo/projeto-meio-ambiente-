@@ -34,8 +34,8 @@
 
 @media (max-width: 480px) {
 
-    html{
-        background-image: url(../imagens/versao\ celular.jpg);
+    body{
+      background-color: rgb(100, 110, 62);
     }
 
     h1 {
